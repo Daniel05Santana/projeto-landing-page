@@ -1,0 +1,87 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background: url("../images/bg-desktop.svg") center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+header .image-logo {
+    padding: 30px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    padding: 0 30px;
+    width: 700px;
+}
+
+main .infos {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+main .infos h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+    
+}
+
+main .infos p {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    line-height: 18px;
+    
+}
+
+main .infos .btn-register {
+    background-color: #fff;
+    width: 200px;
+    height: 55px;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 80px;
+    transition: 0.3s;
+}
+
+main .infos .btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.social ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin: 30px;
+    
+}
+
+.social nav ul li a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 130%;
+    transition: 0.3s;
+}
+
+.social nav ul li a i:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
+
+
+
+

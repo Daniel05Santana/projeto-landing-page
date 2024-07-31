@@ -1,0 +1,54 @@
+@media (max-width:425px) {
+    body {
+        background: url("../images/bg-mobile.svg") center bottom  no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    header  .image-logo {
+        width: 200px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main img {
+        width: 100%;
+    }
+    
+    main .infos {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    main .infos h2 {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0 2px;
+    }
+    main .infos p {
+        font-size: 15px;
+        padding: 0 30px;
+        font-weight: 200;
+    }
+
+    main .infos .btn-register {
+        padding: 8px 55px;
+        font-size: 10px;
+    }
+
+    .social ul {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social nav ul li a i {
+        font-size: 115%;
+        padding: 8px;
+    }
+
+    
+}
